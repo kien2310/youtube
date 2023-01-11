@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event)
             loadVideo(this.value);
         }
     }
-    loadVideo("Taylor Swift");
+    loadVideo("Đen Vâu");
 });
  var modal = document.getElementById('myModal');
 
