@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function(event)
     }
  }
  function loadVideo(keyword) {
-    var YOUTUBE_API = "https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&maxResults=9&part=snippet&key=AIzaSyBsKmwQwZUv4XWST2J_gGQaqqJyHourh7Q" ;
+    var YOUTUBE_API = "https://content.googleapis.com/youtube/v3/search?q=" + keyword + "&type=video&maxResults=9&part=snippet&key=AIzaSyAjw0hwXh9nMbv-Z80_8COQf5UcNGqjjeU" ;
     var xhr = new XMLHttpRequest();
     xhr.open("GET", YOUTUBE_API, true);
     xhr.onreadystatechange = function(){
